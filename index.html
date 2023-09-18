@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="max-w-[1240px] mx-auto w-full p-5">
+        <div class="flex justify-between flex-col md:flex-row mb-5 w-full text-center">
+            <h3 class="text-3xl font-bold text-center">
+                    Best Sellers 
+            </h3>
+            <div class="hidden-mobile md:visible md:flex items-center gap-2 cursor-pointer">
+                <p>Shop All best Sellers</p>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:flex md:flex-no-wrap md:overflow-x-scroll md:scrolling-touch md:items-start mb-8 gap-4" id="scrollContainer">
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_headphones.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image" />
+                    <img src="img/small_headphones.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2">
+                        <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">outside vibes T-Shirt sunshine</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_glasses.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_glasses.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                            <div class="border text-[9px] border-gray-900 bg-green-800 text-white rounded-full px-2 py-1 uppercase">Save 15%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">nike bottle outside vibes forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_nikeshoes.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_nikeshoes.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2">
+                        <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">rest in nature t-shirt charcoal</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_banana.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_banana.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                            <div class="border text-[9px] border-gray-900 bg-green-800 text-white rounded-full px-2 py-1 uppercase">Save 15%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">outside vibes cap forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4 hidden md:block">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_car.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_car.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">Rest in nature t-shirt charcoal</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4 hidden md:block">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_puma.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_puma.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                            <div class="border text-[9px] border-gray-900 bg-green-800 text-white rounded-full px-2 py-1 uppercase">Save 15%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">nike bottle outside vibes forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4 hidden md:block">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_scooter.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_scooter.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">nike bottle outside vibes forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4 hidden md:block">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_drone.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_drone.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                            <div class="border text-[9px] border-gray-900 bg-green-800 text-white rounded-full px-2 py-1 uppercase">Save 15%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">nike bottle outside vibes forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4 hidden md:block">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_iphone.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_iphone.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">nike bottle outside vibes forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+
+            <div class="text-[12px] flex-none md:w-1/6 md:pb-4 hidden md:block">
+                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="img/large_bike.jpg" class="object-cover w-full h-48 transition duration-300 ease-in-out" alt="Primary Image"/>
+                    <img src="img/small_bike.jpg" alt="Secondary Image" class="object-cover w-full h-[190px] absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
+                    <div class="absolute top-2 left-0 px-2 w-full">
+                        <div class="flex justify-between gap-2">
+                            <div class="border text-[9px] border-gray-900 bg-white text-black rounded-full px-2 py-1 uppercase">Best Seller</div>
+                            <div class="border text-[9px] border-gray-900 bg-green-800 text-white rounded-full px-2 py-1 uppercase">Save 15%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2 pl-2">
+                    <p class="uppercase text-[10px] my-2 font-semibold">nike bottle outside vibes forest green</p>
+                    <div class="flex items-center mb-2">
+                        <div class="flex">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="text-gray-400">1234 Review</p>
+                    </div>
+                    <p class="font-semibold">$104.95</p>
+                </div>
+            </div>
+        </div>
+        <button class="bg-black text-white rounded-full py-2 px-2 w-full md:hidden" id="showMoreButton">Show More</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
