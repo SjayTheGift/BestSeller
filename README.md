@@ -10,17 +10,6 @@ Challange app
 
 **Server:** Node
 
-
-## Demo
-
-Main Screen
-![picture alt](https://github.com/SjayTheGift/BestSeller/blob/master/img/ScreenShot.png "Main Screen")
-
-Mobile view
-
-![picture alt](https://github.com/SjayTheGift/BestSeller/blob/master/img/mobile_view.png "mobile view")
-
-
 ## Run Locally
 
 Clone the project
@@ -47,3 +36,13 @@ Start the server
   npm run start
 ```
 
+
+
+## Demo
+
+Main Screen
+![picture alt](https://github.com/SjayTheGift/BestSeller/blob/master/img/ScreenShot.png "Main Screen")
+
+Mobile view
+
+![picture alt](https://github.com/SjayTheGift/BestSeller/blob/master/img/mobile_view.png "mobile view")
